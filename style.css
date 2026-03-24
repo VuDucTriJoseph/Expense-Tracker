@@ -109,7 +109,7 @@ h2 {
   flex-direction: column;
 }
 
-.transaction-list {
+#transaction-list {
   list-style: none;
   max-height: 500px;
   overflow-y: auto;
@@ -117,23 +117,23 @@ h2 {
   flex-grow: 1;
 }
 
-.transaction-list::-webkit-scrollbar {
+#transaction-list::-webkit-scrollbar {
   width: 8px;
 }
 
-.transaction-list::-webkit-scrollbar-track {
+#transaction-list::-webkit-scrollbar-track {
   /* track is background of scrollbar */
   background: #f1f1f1;
   border-radius: 4px;
 }
 
-.transaction-list::-webkit-scrollbar-thumb {
+#transaction-list::-webkit-scrollbar-thumb {
   /* thumb is the draggable part of scrollbar */
   background: #cbd5e0;
   border-radius: 4px;
 }
 
-.transaction-list::-webkit-scrollbar-thumb:hover {
+#transaction-list::-webkit-scrollbar-thumb:hover {
   background: #a0aec0;
 }
 
